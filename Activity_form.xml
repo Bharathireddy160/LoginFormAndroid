@@ -1,0 +1,157 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;ScrollView xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;match_parent&quot;
+android:background=&quot;@drawable/bg_gradient&quot;
+tools:context=&quot;.FormActivity&quot;&gt;
+
+&lt;LinearLayout
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:orientation=&quot;vertical&quot;
+android:padding=&quot;20dp&quot;&gt;
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+
+
+
+android:text=&quot;NAME :&quot; /&gt;
+
+&lt;!-- Name --&gt;
+&lt;EditText
+android:id=&quot;@+id/etName&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:minHeight=&quot;48dp&quot;
+android:padding=&quot;12dp&quot;
+android:hint=&quot;Enter Name&quot;
+android:textSize=&quot;16sp&quot;
+android:layout_marginBottom=&quot;12dp&quot; /&gt;
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot; PIN :&quot; /&gt;
+
+&lt;!-- PIN --&gt;
+&lt;EditText
+android:id=&quot;@+id/etPin&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:minHeight=&quot;48dp&quot;
+android:padding=&quot;12dp&quot;
+android:hint=&quot;Enter PIN&quot;
+android:inputType=&quot;numberPassword&quot;
+android:textSize=&quot;16sp&quot;
+android:layout_marginBottom=&quot;12dp&quot; /&gt;
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;EMail :&quot; /&gt;
+
+&lt;!-- Email --&gt;
+&lt;EditText
+android:id=&quot;@+id/etEmail&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:minHeight=&quot;48dp&quot;
+android:padding=&quot;12dp&quot;
+android:hint=&quot;Enter Email&quot;
+android:inputType=&quot;textEmailAddress&quot;
+android:textSize=&quot;16sp&quot;
+android:layout_marginBottom=&quot;12dp&quot; /&gt;
+
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;GENDER :&quot; /&gt;
+
+&lt;!-- Gender --&gt;
+&lt;RadioGroup
+android:id=&quot;@+id/rgGender&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:orientation=&quot;horizontal&quot;
+android:layout_marginBottom=&quot;12dp&quot;&gt;
+
+&lt;RadioButton
+android:id=&quot;@+id/rbMale&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Male&quot; /&gt;
+
+&lt;RadioButton
+android:id=&quot;@+id/rbFemale&quot;
+android:layout_width=&quot;wrap_content&quot;
+
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Female&quot; /&gt;
+
+&lt;/RadioGroup&gt;
+
+&lt;!-- Courses --&gt;
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Interested Courses:&quot;
+android:textStyle=&quot;bold&quot;
+android:textColor=&quot;@android:color/white&quot;
+android:layout_marginBottom=&quot;6dp&quot; /&gt;
+
+&lt;CheckBox
+android:id=&quot;@+id/cbJava&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Java&quot; /&gt;
+
+&lt;CheckBox
+android:id=&quot;@+id/cbPython&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Python&quot; /&gt;
+
+&lt;CheckBox
+android:id=&quot;@+id/cbAndroid&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Android&quot; /&gt;
+&lt;TextView
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;select year of graduation :&quot; /&gt;
+
+&lt;!-- Year Spinner --&gt;
+&lt;Spinner
+android:id=&quot;@+id/spYear&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:minHeight=&quot;48dp&quot;
+android:padding=&quot;12dp&quot;
+android:layout_marginBottom=&quot;12dp&quot; /&gt;
+
+&lt;!-- Buttons --&gt;
+&lt;LinearLayout
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:orientation=&quot;horizontal&quot;
+android:gravity=&quot;center&quot;&gt;
+
+&lt;Button
+android:id=&quot;@+id/btnPrev&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Prev&quot;
+android:backgroundTint=&quot;@android:color/holo_red_light&quot;
+android:layout_marginEnd=&quot;20dp&quot; /&gt;
+
+&lt;Button
+android:id=&quot;@+id/btnSubmit&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Submit&quot;
+android:backgroundTint=&quot;@android:color/holo_green_dark&quot; /&gt;
+&lt;/LinearLayout&gt;
+
+&lt;/LinearLayout&gt;
+&lt;/ScrollView&gt;

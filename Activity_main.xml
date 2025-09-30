@@ -1,0 +1,38 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;match_parent&quot;
+android:padding=&quot;20dp&quot;
+android:background=&quot;@drawable/bg_gradient&quot;
+tools:context=&quot;.MainActivity&quot;&gt;
+&lt;TextView
+android:id=&quot;@+id/tvDate&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Date&quot;
+android:textSize=&quot;20sp&quot;
+android:textStyle=&quot;bold&quot;
+android:textColor=&quot;@android:color/white&quot;
+android:layout_alignParentStart=&quot;true&quot;
+android:layout_alignParentTop=&quot;true&quot;
+android:layout_margin=&quot;10dp&quot; /&gt;
+&lt;TextClock
+android:id=&quot;@+id/tvClock&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:format24Hour=&quot;HH:mm:ss&quot;
+android:textSize=&quot;20sp&quot;
+android:textStyle=&quot;bold&quot;
+android:textColor=&quot;@android:color/white&quot;
+android:layout_alignParentEnd=&quot;true&quot;
+android:layout_alignParentTop=&quot;true&quot;
+android:layout_margin=&quot;10dp&quot; /&gt;
+&lt;Button
+android:id=&quot;@+id/btnNext&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Next&quot;
+android:layout_centerInParent=&quot;true&quot;
+android:backgroundTint=&quot;@android:color/holo_blue_light&quot; /&gt;
+&lt;/RelativeLayout&gt;

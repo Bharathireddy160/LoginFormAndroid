@@ -1,0 +1,35 @@
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;RelativeLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;match_parent&quot;
+android:padding=&quot;20dp&quot;
+android:background=&quot;@drawable/bg_gradient&quot;
+tools:context=&quot;.ResultActivity&quot;&gt;
+
+&lt;!-- Result Data --&gt;
+
+
+
+&lt;TextView
+android:id=&quot;@+id/tvResult&quot;
+android:layout_width=&quot;match_parent&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Results will appear here&quot;
+android:textSize=&quot;18sp&quot;
+android:textStyle=&quot;bold&quot;
+android:textColor=&quot;@android:color/white&quot;
+android:layout_marginTop=&quot;40dp&quot;
+android:padding=&quot;15dp&quot; /&gt;
+
+&lt;!-- Back Button --&gt;
+&lt;Button
+android:id=&quot;@+id/btnBack&quot;
+android:layout_width=&quot;wrap_content&quot;
+android:layout_height=&quot;wrap_content&quot;
+android:text=&quot;Prev&quot;
+android:backgroundTint=&quot;@android:color/holo_orange_dark&quot;
+android:layout_centerHorizontal=&quot;true&quot;
+android:layout_below=&quot;@id/tvResult&quot;
+android:layout_marginTop=&quot;30dp&quot;/&gt;
+&lt;/RelativeLayout&gt;
